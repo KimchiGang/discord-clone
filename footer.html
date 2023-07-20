@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/13b874a53a.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            color: #fff;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .footer {
+            background: #23272a;
+            height: 55vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-left: 250px;
+            padding-right: 250px;
+            padding-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .langSns {
+            /* background: tomato; */
+            width: 100px;
+            height: 100px;
+            flex: 1;
+            height: 70%;
+        }
+
+        .dummy {
+            width: 150px
+        }
+
+        .product {
+            flex: 1;
+            height: 70%;
+        }
+
+        .company {
+            flex: 1;
+            width: 100px;
+            height: 100px;
+            /* background: aqua; */
+            height: 70%;
+        }
+
+        .resource {
+            flex: 1;
+            width: 100px;
+            height: 100px;
+            /* background: greenyellow; */
+            height: 70%
+        }
+
+        .policy {
+            flex: 1;
+            width: 100px;
+            height: 100px;
+            /* background: violet; */
+            height: 70%;
+        }
+
+        .footer ul {
+            color: #5865f2;
+            line-height: 3.5;
+        }
+
+        .footer ul li {
+            list-style: none;
+            line-height: 1.8;
+        }
+
+        .language {
+            background: #23272a;
+            padding: 10px;
+            padding-bottom: 50px;
+            margin-top: 30px;
+        }
+
+        .lang {
+            border: none;
+            background: #23272a;
+        }
+
+        .socialIcon {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .under {
+            border-top: 2px solid #5865f2;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        .under .logo img {
+            width: 150px;
+            height: 30px;
+            filter: invert(100);
+        }
+
+        .under .Sign-up {
+            color: #fff;
+            background: #5865f2;
+            border-radius: 30px;
+            width: 100px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="footer">
+        <div class="langSns">
+            <div class="language">
+                <select class="lang" style="color: #fff; background: #000; font-size: 15px;">
+                    <option value="ko" selected>🇰🇷 한국어</option>
+                    <option value="jp">🇯🇵 일본어</option>
+                    <option value="us">🇺🇸 영어</option>
+                </select>
+            </div>
+            <div class="socialIcon">
+                <a href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="dummy"></div>
+        <div class="product">
+            <ul>제품
+                <li><a href="#">다운로드</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">상태</a></li>
+            </ul>
+        </div>
+        <div class="company">
+            <ul>회사
+                <li><a href="#">소개</a></li>
+                <li><a href="#">채용</a></li>
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">뉴스</a></li>
+            </ul>
+        </div>
+        <div class="resource">
+            <ul>자원
+                <li><a href="#">대학</a></li>
+                <li><a href="#">지원</a></li>
+                <li><a href="#">보안</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">피드백</a></li>
+                <li><a href="#">Build</a></li>
+                <li><a href="#">StreamKit</a></li>
+                <li><a href="#">Creators</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Official 3rd Party Merch</a></li>
+            </ul>
+        </div>
+        <div class="policy">
+            <ul>정책
+                <li><a href="#">이용 약관</a></li>
+                <li><a href="#">개인 정보 보호 정책</a></li>
+                <li><a href="#">쿠키 설정</a></li>
+                <li><a href="#">지침</a></li>
+                <li><a href="#">감사</a></li>
+                <li><a href="#">라이선스</a></li>
+                <li><a href="#">관리</a></li>
+                <li><a href="#">회사정보</a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <div class="logo">
+                <img src="homepage/img/logo.png" alt="">
+            </div>
+            <div class="openDiscord">
+                <button class="Sign-up">가입하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
