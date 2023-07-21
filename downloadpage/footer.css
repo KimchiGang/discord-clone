@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer {
+    background: #23272a;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+.langSns {
+    /* background: tomato; */
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    height: 70%;
+}
+
+.dummy {
+    width: 150px
+}
+
+.product {
+    flex: 1;
+    height: 70%;
+}
+
+.company {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    /* background: aqua; */
+    height: 70%;
+}
+
+.resource {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    /* background: greenyellow; */
+    height: 70%
+}
+
+.policy {
+    flex: 1;
+    width: 100px;
+    height: 100px;
+    /* background: violet; */
+    height: 70%;
+}
+
+.footer ul {
+    color: #5865f2;
+    line-height: 3.5;
+}
+
+.footer ul li {
+    list-style: none;
+    line-height: 1.8;
+}
+
+.language {
+    background: #23272a;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+}
+
+.lang {
+    border: none;
+    background: #23272a;
+}
+
+.socialIcon {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.under {
+    border-top: 2px solid #5865f2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.under .logo img {
+    width: 150px;
+    height: 30px;
+    filter: invert(100);
+}
+
+.under .Sign-up {
+    color: #fff;
+    background: #5865f2;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}

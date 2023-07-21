@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord 다운로드로 함께 대화하고, 채팅하고, 어울리기</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    
+    <link rel="icon" href="img/discord-mascot.ico">
+    <link rel="apple-touch-icon" href="img/discord-mascot.ico">
+
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+    <style>
+        @import url('main.css');
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <h1>
+                <a href="../homepage/index.html" class="menu_logo">
+                    <img src="img/discord_logo.png">
+                </a>
+            </h1>
+            <ul class="main-nav__items">
+                <li class="main-nav__item">
+                    <a href="index.html">Download</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Nitro</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Discover</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Safety</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Support</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="../blogpage/index.html">Blog</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#">Careers</a>
+                </li>
+            </ul>
+            <a href="#"><button type="button" id="login-discord">Open Discord</button></a>
+        </nav>
+    </header>
+
+    <div class="discord-top">
+        <div class="discordhead">
+            <h1>어느 장치에서든 <span>DISCORD</span> 설치하기</h1>
+            <p> 모험이 기다리고 있어요. PC 앱으로 친구들과 어울리고 모바일에서도 대화를 이어가세요.</p>
+            <a href="setup/DiscordSetup.exe" download><button type="button" id="downwindow"><img src="img/download_icon.png">  Windows용 다운로드</button></a>
+            <p id="window-version">Windows 7 이상</p>
+        </div>
+        <div class="discordhead2">
+            <img src="img/rabbitcord.png" alt="Welcome to discord!">
+        </div>
+    </div>
+
+    <section>
+        <div class="column1">
+            <div class="issac1">
+                <div class="box">
+                    <h2>iOS</h2>
+                    <a href="https://apps.apple.com/us/app/discord-chat-for-games/id985746746?attemptId=fd312adc-5de3-4cbe-ace7-841895497ed0&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI"><button type="button" id="downbtn">다운로드</button></a>
+                    <img src="img/ios.png" alt="ios">
+                </div>
+            </div>
+
+            <div class="issac3">
+                <div class="box">
+                    <h2>Linux</h2>
+                    <button type="button" id="downbtn">다운로드 &#8744;</button>
+                    <div id="whitediv">
+                        <ul>
+                            <li><a href="setup/discord-0.0.28.deb" download>deb</a></li>
+                            <li><a href="setup/discord-0.0.28.tar.gz" download>tar.gz</a></li>
+                        </ul>
+                    </div>
+                    <img src="img/linux.png" alt="linux">
+                </div>
+            </div>
+            
+            <div class="issac5">
+                <div class="box2">
+                    <h2>새로운 걸 시험해 보고 싶으신가요?</h2>
+                    <p>공개 테스트 빌드로 새로운 기능을 먼저 사용해보세요.</p>
+                    <button type="button" id="downbtn2">실험 버전 다운로드 <img src="img/downarrow.png"></button>
+                    <div id="whitediv">
+                        <ul>
+                            <li><a href="setup/DiscordPTBSetup.exe" download>Windows</a></li>
+                            <li><a href="setup/discord-ptb-0.0.44.deb" download>Linux deb</a></li>
+                            <li><a href="setup/discord-ptb-0.0.44.tar.gz" download>Linux tar.gz</a></li>
+                            <li><a href="setup/DiscordPTB.dmg" download>Mac</a></li>
+                        </ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+        <div class="column2">
+            <div class="issac2">
+                <div class="box">
+                    <h2>Android</h2>
+                    <a href="https://play.google.com/store/apps/details?id=com.discord&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI&attemptId=339f2d92-4ee5-49f6-a3a4-172a2d4377cd"><button type="button" id="downbtn">다운로드</button></a>
+                    <img src="img/android.png" alt="android">
+                </div>
+            </div>
+    
+            <div class="issac4">
+                <div class="box">
+                    <h2>Mac</h2>
+                    <a href="downloadsetup/Discord.dmg" download><button type="button" id="downbtn">다운로드</button></a>
+                    <img src="img/mac.png" alt="mac">
+                </div> 
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="footer">
+        <div class="langSns">
+            <div class="language">
+                <select class="lang" style="color: #fff; background: #000; font-size: 15px;">
+                    <option value="ko" selected>🇰🇷 한국어</option>
+                    <option value="jp">🇯🇵 일본어</option>
+                    <option value="us">🇺🇸 영어</option>
+                </select>
+            </div>
+            <div class="socialIcon">
+                <a href="#"><i class="fa-brands fa-twitter fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube fa-2xl" style="color: #ffffff;"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok fa-2xl" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="dummy"></div>
+        <div class="product">
+            <ul>제품
+                <li><a href="#">다운로드</a></li>
+                <li><a href="#">Nitro</a></li>
+                <li><a href="#">상태</a></li>
+            </ul>
+        </div>
+        <div class="company">
+            <ul>회사
+                <li><a href="#">소개</a></li>
+                <li><a href="#">채용</a></li>
+                <li><a href="#">브랜드</a></li>
+                <li><a href="#">뉴스</a></li>
+            </ul>
+        </div>
+        <div class="resource">
+            <ul>자원
+                <li><a href="#">대학</a></li>
+                <li><a href="#">지원</a></li>
+                <li><a href="#">보안</a></li>
+                <li><a href="#">블로그</a></li>
+                <li><a href="#">피드백</a></li>
+                <li><a href="#">Build</a></li>
+                <li><a href="#">StreamKit</a></li>
+                <li><a href="#">Creators</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Official 3rd Party Merch</a></li>
+            </ul>
+        </div>
+        <div class="policy">
+            <ul>정책
+                <li><a href="#">이용 약관</a></li>
+                <li><a href="#">개인 정보 보호 정책</a></li>
+                <li><a href="#">쿠키 설정</a></li>
+                <li><a href="#">지침</a></li>
+                <li><a href="#">감사</a></li>
+                <li><a href="#">라이선스</a></li>
+                <li><a href="#">관리</a></li>
+                <li><a href="#">회사정보</a></li>
+            </ul>
+        </div>
+        <div class="under">
+            <div class="logo">
+                <img src="../homepage/img/logo.png" alt="">
+            </div>
+            <div class="openDiscord">
+                <button class="Sign-up">가입하기</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
