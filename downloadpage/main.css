@@ -1,0 +1,264 @@
+@import url('header.css');
+@import url('footer.css');
+body {
+    background: #fff;
+}
+.discord-top {
+    background: #1d1d1d;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 100px;
+}
+.discordhead {
+    /* background: orange; */
+    width: 550px;
+    height: 500px;
+    margin-left: 400px;
+}
+.discordhead h1 {
+    padding: 20px;
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+}
+.discordhead span {
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 60px;
+}
+.discordhead #downwindow {
+    border: 1px solid rgb(76, 0, 255);
+    border-radius: 30px;
+    background-color: rgb(76, 0, 255);
+    color: #fff;
+    font-size: 20px;
+    padding: 15px 20px 15px 20px;
+    transition: 0.3s;
+}
+.discordhead #downwindow:hover {
+    filter: brightness(200%);
+}
+
+.discordhead #window-version {
+    display: flex;
+    align-items: center;
+    float: right;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    margin-top: 5px;
+    margin-right: 50px;
+}
+.discordhead p {
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+}
+
+.discordhead2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    
+}
+.discordhead2 img {
+    width: 680px;
+    height: 370px;
+    margin-left: 50px;
+    filter: brightness(150%);
+}
+
+/* section style */
+section {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+section .column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+}
+
+section .column2 {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 30px;
+}
+
+section .column1 .box a {
+    text-decoration-line:none;
+}
+section .column2 .box a {
+    text-decoration-line:none;
+}
+
+section .box {
+    margin-bottom: 30px;
+}
+/* section 1 */
+section .issac1 .box{
+    background: rgb(233, 233, 233);
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    padding: 50px;
+    border-radius: 20px;
+}
+section .issac1 .box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 30px;
+    filter: brightness(150%);
+}
+section .issac1 .box h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+/* section 2 */
+section .issac2 .box {
+    background: rgb(233, 233, 233);
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    padding: 50px;
+    border-radius: 20px;
+}
+section .issac2 .box h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+section .issac2 .box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 30px;
+    filter: brightness(150%);
+}
+/* section 3 */
+section .issac3 .box {
+    background: rgb(233, 233, 233);
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    padding: 50px;
+    border-radius: 20px;
+}
+section .issac3 .box h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+section .issac3 .box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 30px;
+    filter: brightness(150%);
+}
+/* section 4 */
+section .issac4 .box {
+    background: rgb(233, 233, 233);
+    width: 400px;
+    height: 500px;
+    overflow: hidden;
+    padding: 50px;
+    border-radius: 20px;
+}
+section .issac4 .box h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+}
+section .issac4 .box img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding: 30px;
+    filter: brightness(150%);
+}
+/* section 5 */
+section .issac5 .box2 {
+    background: rgb(233, 233, 233);
+    width: 400px;
+    overflow: hidden;
+    padding: 50px;
+}
+section .issac5 .box2 h2{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+/* download list box */
+section #whitediv {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 10px;
+    display: none;
+}
+section #whitediv ul li {
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+section #whitediv ul li a {
+    text-decoration:none;
+    color: #000;
+}
+section #whitediv ul li:hover {
+    background: #e6e6e6;
+    text-decoration: underline;
+    color: rgb(0, 0, 255);
+}
+section #whitediv ul li a:hover{
+    text-decoration:underline;
+    color: rgb(0, 0, 255);
+}
+
+/* download buttons */
+section #downbtn {
+    width: 150px;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 75px;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-decoration-line: none;
+}
+section #downbtn:hover{
+    box-shadow: 3px 3px 10px #818181;
+}
+section #downbtn2 {
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    transition: 0.3s;
+    text-decoration-line: none;
+}
+section #downbtn2:hover{
+    box-shadow: 3px 3px 10px #818181;
+}
+
