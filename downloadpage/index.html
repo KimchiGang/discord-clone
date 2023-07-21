@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord 다운로드로 함께 대화하고, 채팅하고, 어울리기</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-    
-    <link rel="icon" href="img/discord-mascot.ico">
+
+    <link href="../homepage/img/discord-round-color-icon.png" rel="shortcut icon" type="image/x-icon">
     <link rel="apple-touch-icon" href="img/discord-mascot.ico">
 
     <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="https://kit.fontawesome.com/13b874a53a.js" crossorigin="anonymous"></script>
 
     <style>
         @import url('main.css');
     </style>
 </head>
+
 <body>
     <header>
         <nav class="main-nav">
@@ -54,8 +57,9 @@
         <div class="discordhead">
             <h1>어느 장치에서든 <span>DISCORD</span> 설치하기</h1>
             <p> 모험이 기다리고 있어요. PC 앱으로 친구들과 어울리고 모바일에서도 대화를 이어가세요.</p>
-            <a href="setup/DiscordSetup.exe" download><button type="button" id="downwindow"><img src="img/download_icon.png">  Windows용 다운로드</button></a>
-            <p id="window-version">Windows 7 이상</p>
+            <a href="setup/DiscordSetup.exe" download><button type="button" id="downwindow"><img
+                        src="img/download_icon.png"> Windows용 다운로드</button></a>
+            <p id="window-version" style="cursor: pointer;">Windows 7 이상</p>
         </div>
         <div class="discordhead2">
             <img src="img/rabbitcord.png" alt="Welcome to discord!">
@@ -67,7 +71,9 @@
             <div class="issac1">
                 <div class="box">
                     <h2>iOS</h2>
-                    <a href="https://apps.apple.com/us/app/discord-chat-for-games/id985746746?attemptId=fd312adc-5de3-4cbe-ace7-841895497ed0&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI"><button type="button" id="downbtn">다운로드</button></a>
+                    <a
+                        href="https://apps.apple.com/us/app/discord-chat-for-games/id985746746?attemptId=fd312adc-5de3-4cbe-ace7-841895497ed0&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI"><button
+                            type="button" id="downbtn" style="cursor: pointer;">다운로드</button></a>
                     <img src="img/ios.png" alt="ios">
                 </div>
             </div>
@@ -75,7 +81,7 @@
             <div class="issac3">
                 <div class="box">
                     <h2>Linux</h2>
-                    <button type="button" id="downbtn">다운로드 &#8744;</button>
+                    <button type="button" id="downbtn" style="cursor: pointer;">다운로드 &#8744;</button>
                     <div id="whitediv">
                         <ul>
                             <li><a href="setup/discord-0.0.28.deb" download>deb</a></li>
@@ -85,12 +91,13 @@
                     <img src="img/linux.png" alt="linux">
                 </div>
             </div>
-            
+
             <div class="issac5">
                 <div class="box2">
                     <h2>새로운 걸 시험해 보고 싶으신가요?</h2>
                     <p>공개 테스트 빌드로 새로운 기능을 먼저 사용해보세요.</p>
-                    <button type="button" id="downbtn2">실험 버전 다운로드 <img src="img/downarrow.png"></button>
+                    <button type="button" id="downbtn2" style="cursor: pointer;">실험 버전 다운로드 <img
+                            src="img/downarrow.png"></button>
                     <div id="whitediv">
                         <ul>
                             <li><a href="setup/DiscordPTBSetup.exe" download>Windows</a></li>
@@ -99,37 +106,46 @@
                             <li><a href="setup/DiscordPTB.dmg" download>Mac</a></li>
                         </ul>
                     </div>
-                </div> 
+                </div>
             </div>
         </div>
-        
+
         <div class="column2">
             <div class="issac2">
                 <div class="box">
                     <h2>Android</h2>
-                    <a href="https://play.google.com/store/apps/details?id=com.discord&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI&attemptId=339f2d92-4ee5-49f6-a3a4-172a2d4377cd"><button type="button" id="downbtn">다운로드</button></a>
+                    <a
+                        href="https://play.google.com/store/apps/details?id=com.discord&fingerprint=1131448661793063003.1KhpLioVc4GnOGk63NvDfLSzgWI&attemptId=339f2d92-4ee5-49f6-a3a4-172a2d4377cd"><button
+                            type="button" id="downbtn" style="cursor: pointer;">다운로드</button></a>
                     <img src="img/android.png" alt="android">
                 </div>
             </div>
-    
+
             <div class="issac4">
                 <div class="box">
                     <h2>Mac</h2>
-                    <a href="downloadsetup/Discord.dmg" download><button type="button" id="downbtn">다운로드</button></a>
+                    <a href="downloadsetup/Discord.dmg" download><button type="button" id="downbtn"
+                            style="cursor: pointer;">다운로드</button></a>
                     <img src="img/mac.png" alt="mac">
-                </div> 
+                </div>
             </div>
         </div>
     </section>
 
-    
+
     <div class="footer">
         <div class="langSns">
             <div class="language">
-                <select class="lang" style="color: #fff; background: #000; font-size: 15px;">
+                <select class="lang">
                     <option value="ko" selected>🇰🇷 한국어</option>
-                    <option value="jp">🇯🇵 일본어</option>
-                    <option value="us">🇺🇸 영어</option>
+                    <option value="us">🇺🇸 English</option>
+                    <option value="jp">🇯🇵 日本語</option>
+                    <option value="cn">🇨🇳 中文</option>
+                    <option value="turkiye">🇹🇷 Türkçe</option>
+                    <option value="denmark">🇩🇰 Dansk</option>
+                    <option value="finland">🇫🇮 Suomi</option>
+                    <option value="spain">🇪🇸 Español</option>
+                    <option value="india">🇮🇳 हिन्दी </option>
                 </select>
             </div>
             <div class="socialIcon">
@@ -192,4 +208,5 @@
         </div>
     </div>
 </body>
+
 </html>

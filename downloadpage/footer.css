@@ -8,17 +8,19 @@ a {
     text-decoration: none;
 }
 
+/* footer */
 .footer {
     background: #23272a;
-    height: 55vh;
+    height: 65vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 250px;
+    /* padding-left: 250px;
     padding-right: 250px;
-    padding-top: 30px;
+    padding-top: 30px; */
     flex-wrap: wrap;
+    padding: 50px 250px;
 }
 
 .langSns {
@@ -68,8 +70,17 @@ a {
 }
 
 .footer ul li {
-    list-style: none;
+    text-decoration: none;
     line-height: 1.8;
+}
+
+.footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
 }
 
 .language {
@@ -80,8 +91,21 @@ a {
 }
 
 .lang {
-    border: none;
+    -o-appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     background: #23272a;
+    border: none;
+    width: 150px;
+    height: 35px;
+    font-size: 20px;
+    color: aqua;
+    background:url('img/32213.png') no-repeat 70% 50%/15px auto;
+}
+
+.lang:hover {
+    cursor: pointer;
 }
 
 .socialIcon {
@@ -104,6 +128,7 @@ a {
     width: 150px;
     height: 30px;
     filter: invert(100);
+    cursor: pointer;
 }
 
 .under .Sign-up {
@@ -114,4 +139,4 @@ a {
     height: 50px;
     border: none;
     cursor: pointer;
-}
+}   
